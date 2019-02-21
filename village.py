@@ -18,4 +18,4 @@ class Village:
         print('%s swordsmen' % (self.swordsmen))
     
     def gather(self):
-        self.resources += random.randrange(0, 11)
+        self.resources += random.randrange(0, 11 + self.points // 10)
