@@ -1,14 +1,19 @@
 import random
 
 class Village:
-    def __init__(self, owner):
+    def __init__(self, owner, x, y):
         self.owner = owner
+        self.x = x
+        self.y = y
         self.points = 0
         self.resources = 0
         self.axemen = 0
         self.swordsmen = 0
-        self.x = 0
-        self.y = 0
+
+    def attack(self, defender):
+        self.axemen -= 0
+        self.swordsmen -= 0
+        self.points += 0
 
     def display(self):
         print('')
